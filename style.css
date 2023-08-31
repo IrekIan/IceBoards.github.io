@@ -68,3 +68,11 @@ a {
 	height: 100vh;
 	width: 100vw;
 }
+h2 {
+	color: #ea5b0c;
+	font-family: 'Anton', 'Montserrat', sans-serif;
+	font-size: 80px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 20px;
+}
