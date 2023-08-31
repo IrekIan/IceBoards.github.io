@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	scroll-behavior: smooth;
 }
 /* NAVBAR */
 .navbar {
@@ -40,7 +41,7 @@ a {
 	/* position: absolute; */
 	height: 100vh;
 	width: 100vw;
-	background-image: url('/img/taylor-smith-selWWrPDkoc-unsplash.jpg');
+	background-image: url('https://images.unsplash.com/photo-1569074187119-c87815b476da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2650&q=80g');
 	background-position: center;
 	background-size: cover;
 }
@@ -126,29 +127,147 @@ h3 {
 	padding-left: 200px;
 	padding-right: 200px;
 }
-/* .skateboards_up {
-	width: 100vw;
-	height: 300px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-img {
-	height: 300px;
-	width: 200px;
-}
-.skateboards_up1_txt {
-	float: left;
-}
-h3 {
-	color: black;
-	font-family: 'Anton', 'Montserrat', sans-serif;
-	font-size: 20px;
-	/* text-align: center; */
 
-/* p {
+/* ANDREA CSS  */
+#athletes {
+	height: 100vh;
+	width: 100vw;
+}
+.img1 {
+	height: 449px;
+	width: 682px;
+	display: flex;
+	margin-left: 300px;
+	z-index: 1;
+}
+.img2 {
+	height: 449px;
+	width: 682px;
+	display: flex;
+	z-index: 2;
+}
+.athlete1 {
+	display: flex;
+}
+.athlete2 {
+	display: flex;
+}
+.textathlete1 {
+	color: #000000;
+	font-family: 'Anton', sans-serif;
+	text-align: right;
+	font-size: 20px;
+	width: 300px;
 	height: 300px;
-	width: 100px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 10px;
+	margin-left: 200px;
+}
+.textathlete2 {
+	color: #000000;
+	font-family: 'Anton', sans-serif;
+	text-align: left;
+	font-size: 20px;
+	width: 300px;
+	height: 300px;
+	padding-top: 50px;
+	margin-left: 370px;
+	margin-right: 200px;
+}
+
+/* STEINAR CSS */
+/* #findus {
+	height: 100vh;
+	width: 100vw;
+}
+.findus {
+	color: #ea5b0c;
+	font-family: 'Anton', 'Montserrat', sans-serif;
+	font-size: 60px;
+	top: 40%;
+	left: 0%;
+	text-transform: uppercase;
+	text-align: center;
+}
+.adress {
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	background-color: #ea5b0c;
+	border-radius: 10;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.location-pin {
+	height: 58px;
+	width: 58px;
+	position: relative;
+	left: 200px;
+}
+.mail {
+	height: 58;
+	width: 58px;
+	position: relative;
+	right: 200px;
+}
+.adressinfo {
+	padding: 20px 0;
+	color: #fff;
+	margin: 26;
+	text-align: left;
+	font-family: 'Anton', 'Montserrat', sans-serif;
+	padding-left: 250px;
+}
+.adressinfo2 {
+	color: #fff;
+	margin: 26;
+	text-align: right;
+	font-family: 'Anton', 'Montserrat', sans-serif;
+	padding-right: 250px;
+}
+.location-map {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 150px auto;
+}
+.location-map2 {
+	width: 100%;
+	height: auto;
+}
+.footer {
+	background-color: #2e8735;
+	color: white;
+	padding: 20px 0;
+}
+.footer-content {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: center;
+}
+.footer-section {
+	flex: 1;
+	padding: 0 20px;
+}
+.social-icons {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	gap: 10px;
+	width: 30px;
+	height: 30px;
+}
+.social-icons img {
+	width: 30px;
+	height: 30px;
+}
+.copyright {
+	text-align: bottom;
+	margin-top: 20px;
+	text-align: right;
 } */
