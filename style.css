@@ -74,5 +74,80 @@ h2 {
 	font-size: 80px;
 	text-align: center;
 	text-transform: uppercase;
-	padding: 20px;
+	padding: 35px;
 }
+p {
+}
+/* UPP ROW  */
+.upp_row {
+	height: 300px;
+	width: 100vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+img {
+	height: 300px;
+	width: 250px;
+}
+.skateboard1 {
+	display: flex;
+	width: 450px;
+}
+.skateboard2 {
+	display: flex;
+	width: 450px;
+}
+.skateboard3 {
+	display: flex;
+	width: 450px;
+}
+h3 {
+	font-family: 'Anton', 'Montserrat', sans-serif;
+	font-size: 25px;
+	width: 100%;
+}
+.skate_p {
+	width: 100%;
+}
+/* DOWN ROW  */
+.down_row {
+	padding-top: 100px;
+	height: 300px;
+	width: 100vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+/* .skateboards_up {
+	width: 100vw;
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+img {
+	height: 300px;
+	width: 200px;
+}
+.skateboards_up1_txt {
+	float: left;
+}
+h3 {
+	color: black;
+	font-family: 'Anton', 'Montserrat', sans-serif;
+	font-size: 20px;
+	/* text-align: center; */
+
+/* p {
+	height: 300px;
+	width: 100px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+} */
