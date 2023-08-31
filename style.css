@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+/* NAVBAR */
+.navbar {
+	/* z-index: 5;
+	height: 100px;
+	position: absolute;
+	padding: 10px;
+	text-align: center;
+	width: 100%; */
+	position: fixed;
+	top: 0px;
+	width: 100vw;
+	height: 5vh;
+	background-color: #ea5b0c;
+	display: flex;
+	align-items: right;
+	justify-content: right;
+}
+a {
+	color: #f2f2f2;
+	padding: 14px 26px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Anton', 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+/* HOME SECTION  */
+#home {
+	height: 100vh;
+	width: 100vw;
+}
+.bcgimg {
+	/* position: absolute; */
+	height: 100vh;
+	width: 100vw;
+	background-image: url('/img/taylor-smith-selWWrPDkoc-unsplash.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.bcgimg_text1 {
+	color: #ea5b0c;
+	font-family: 'Anton', 'Montserrat', sans-serif;
+	font-size: 100px;
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	text-transform: uppercase;
+}
+.bcgimg_text2 {
+	color: #ea5b0c;
+	font-family: 'Anton', 'Montserrat', sans-serif;
+	font-size: 100px;
+	position: absolute;
+	top: 60%;
+	left: 55%;
+	text-transform: uppercase;
+}
+
+/* PRODUCTS  */
+#products {
+	height: 100vh;
+	width: 100vw;
+}
